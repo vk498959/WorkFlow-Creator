@@ -1,0 +1,42 @@
+.container {
+    max-width: 600px;
+    margin: auto;
+    padding: 2rem;
+    font-family: sans-serif;
+  }
+  
+  .form input {
+    margin: 0.5rem;
+    padding: 0.5rem;
+    width: calc(100% - 1rem);
+  }
+  
+  .form button {
+    margin-top: 1rem;
+    padding: 0.5rem 1rem;
+  }
+  
+  .workflow ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .workflow li {
+    margin: 0.5rem 0;
+    padding: 0.5rem;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .workflow li.done {
+    text-decoration: line-through;
+    color: gray;
+  }
+  
+  .workflow button {
+    margin-top: 1rem;
+    background-color: #d9534f;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+  }
